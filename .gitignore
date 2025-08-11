@@ -1,4 +1,14 @@
 .terraform/
 *.tfstate
-*.tfstate.backup
+*.tfstate.*
+terraform.tfstate*
 .terraform.lock.hcl
+
+# Local crash logs / plans
+crash.log
+crash.*.log
+*.tfplan
+
+# BFG artifacts
+bfg.jar
+backup-repo.git/
